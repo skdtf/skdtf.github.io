@@ -39,3 +39,15 @@ Organization marks identify educational and employment affiliations. Logos remai
 - ThirdAI Automation: https://www.thirdaiautomation.com/thirdai-logo.svg
 - NEWME: https://newme.asia/apple-touch-icon.png
 - Myntra: https://constant.myntassets.com/pwa/assets/img/Icon-App-60x60@3x_2021.png
+
+## Interactive update
+
+Includes active sticky navigation, copy-email controls with local-preview fallback, explicit PDF download buttons, reduced-motion support, a warmer background, a user-supplied portrait crop, and a Currently block. Project filters remain omitted.
+
+## Google Analytics activation
+
+Create a Google Analytics 4 property and Web data stream for the live website. Enter its public Measurement ID in config.js. No API secret or password belongs in this repository. Analytics is disabled until a valid G- ID is configured and the page is served over HTTPS. Events include resume_download and email_copy. Future links with data-project attributes can emit project_click. Do not add another handler for the same custom event.
+
+Verify events in GA4 Realtime after publishing. Google documentation: https://developers.google.com/analytics/devguides/collection/ga4/events
+
+The canonical and Open Graph URLs target the intended https://skdtf.github.io/ address. Confirm this address at publication, or update the canonical, og:url, and og:image fields. The 1200x630 social preview is a typographic card in assets/social-preview.png.
