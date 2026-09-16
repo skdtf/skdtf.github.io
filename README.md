@@ -1,0 +1,41 @@
+# Srijan Kumar Dubey | Portfolio
+
+A responsive, dependency-free static portfolio for GitHub Pages.
+
+## Files
+
+- `index.html`: page content and responsive styles
+- `favicon.svg`: monogram favicon
+- `resume.pdf`: downloadable resume
+- `.nojekyll`: serve these files directly
+
+## Local preview
+
+Run `python3 -m http.server 8000` from this folder and open http://localhost:8000.
+
+## Publish on GitHub Pages
+
+1. Create a public repository named `skdtf.github.io` in the skdtf account.
+2. Upload these files to its root on the main branch.
+3. Under Settings > Pages, select Deploy from a branch, main, and /(root), then Save.
+4. The intended website URL is https://skdtf.github.io/ once GitHub completes deployment.
+
+## Editing
+
+Edit the text and embedded styles in index.html. Replace resume.pdf to update the downloadable resume. The site has no build step, remote fonts, tracking, or JavaScript dependencies.
+
+Content is based on the resume supplied on September 15, 2026 and the stated research interests. Personal projects are intentionally omitted. Dates and metrics should be updated when experience changes.
+
+## September 16 redesign
+
+Light editorial layout, serif headings, blue accents, concise professional copy, and an explicit Summer 2027 internship notice. User-provided portrait is included unchanged, with responsive framing controlled by CSS.
+
+## Logo sources
+
+Organization marks identify educational and employment affiliations. Logos remain the property of their respective owners.
+
+- UMass Amherst: https://www.umass.edu/brand/visual-identity/marks-and-seal
+- IIT Roorkee: https://iitr.ac.in/ (asset supplied by cmsredesign.channeli.in)
+- ThirdAI Automation: https://www.thirdaiautomation.com/thirdai-logo.svg
+- NEWME: https://newme.asia/apple-touch-icon.png
+- Myntra: https://constant.myntassets.com/pwa/assets/img/Icon-App-60x60@3x_2021.png
